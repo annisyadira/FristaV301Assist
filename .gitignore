@@ -1,0 +1,40 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+config.txt
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Packaged applications and archives
+*.exe
+*.zip
+*.7z
+*.rar
+
+# Local paths and generated files
+*.log
+*.tmp
+*.bak
+
+# IDE and operating system files
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
