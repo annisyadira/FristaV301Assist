@@ -1,6 +1,6 @@
 from pywinauto import Application
 
-# app = Application().start("C:\\Users\\lenovo\\Downloads\\frista.v.3.0.1\\frista.exe")
+# app = Application().start("C:\\Path\\To\\frista.exe")
 
 # Connect to the application
 app = Application(backend="win32").connect(title="Login Frista (Face Recognition BPJS Kesehatan)")
